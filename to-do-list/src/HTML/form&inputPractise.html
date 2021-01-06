@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form & Input</title>
+</head>
+<body>
+  <form action="process.php">
+    <div>
+      <label for="name">Name</label>
+      <input type="text"placeholder="Enter here" id="text" />
+    </div>
+    <div>
+      <label for="Email"id="email">Email</label>
+      <input type="email"id="email"/>
+    </div>
+<div>
+<label for="Message" id="message">Message</label>
+<textarea name="text" id="text" cols="50" rows="5"></textarea>
+</div>
+<div>
+  <label for="Sex" id="sex">Sex </label>
+  <select name="sex" id="sex">
+  <option value="male">Male</option>
+  <option value="female">FeMale</option>
+  <option value="other">Other</option>
+  
+</select>
+</div>
+<div>
+<label for="age" id="age">Age</label>
+<input type="number" id="number"/>
+</div>
+<div>
+  <label for="Birthday" id="birthday">Birthday</label>
+  <input type="date" id="date" />
+</div>
+<div>
+  <label for="membership" id="membership">Membership</label>
+   <input type="radio" value="simple" name="membership"id="simple">Simple</input>
+  <input type="radio" value="standard" id="Standard"name="membership">Standard</input>
+  <input type="radio" value="super" id="Super"name="membership">Super</input>
+</div>
+<div>
+<label for="I Like.." id= "i like">I Like...</label>
+<input type="checkbox"id="check">Bike</input>
+<input type="checkbox"id="check">Car</input>
+<input type="checkbox"id="check">Boat</input>
+</div>
+<button type="submit" id="Submit"value="Submit">Submit</button>
+<button type="reset" id="Reset"value="Reset">Reset</button>
+</form>
+  
+</body>
+</html>
